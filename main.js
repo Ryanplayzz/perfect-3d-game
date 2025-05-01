@@ -1,3 +1,6 @@
+import * as BABYLON from "https://cdn.babylonjs.com/babylon.js";
+import "https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js";
+import "https://cdn.babylonjs.com/gui/babylon.gui.min.js";
 import { createScene } from './scene.js';
 
 window.addEventListener("DOMContentLoaded", function () {
