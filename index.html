@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Perfect 3D Open World Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+  <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+</head>
+<body>
+  <div id="uiContainer">
+    <label for="graphicsQuality">Graphics:</label>
+    <select id="graphicsQuality">
+      <option value="low">Low</option>
+      <option value="medium" selected>Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button id="fullscreenBtn">Fullscreen</button>
+    <div id="hud">💰 Gold: 0</div>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
